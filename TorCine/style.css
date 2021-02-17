@@ -1,0 +1,24 @@
+body{
+    background-color: #e5e5e5;
+}
+
+.nav-extended{
+  background-image: url("cinema.jpg");
+  background-blend-mode: soft-light;
+}
+  /*
+ Preciso achar o seletor que deixa uma linha branca em baixo da área selecionada, tanto na galeria lá encima,
+ tanto no todos,assistidos e favoritos, que é aonde está bugado, enquanto lá encima, nem aparece, no assistidos,
+ só pega nos 2 primeiros, e está toda hora ativo.
+*/
+
+.nav ul li.active, .tab a.active {
+   border-bottom: solid 2px #fff;
+   background-color: transparent;
+ }
+ 
+ /* Dar uma cor de fundo ao texto TorCine, obs aqui não rolou, terminar depois
+ */
+ .nav-header h1{
+   text-shadow: 2px 2px 50px #0000;
+ }
